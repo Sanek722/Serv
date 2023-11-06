@@ -1,0 +1,14 @@
+{
+  "build": {
+    "cmd": "npm install"
+  },
+  "run": {
+    "cmd": "npm start",
+    "ports": [
+      {
+        "host": 8000,
+        "container": 8000
+      }
+    ]
+  }
+}
